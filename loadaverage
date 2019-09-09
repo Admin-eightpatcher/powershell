@@ -1,7 +1,6 @@
-"& 
-if ((Get-WmiObject win32_processor | select LoadPercentage).LoadPercentage -gt 50 ) 
+& "if ((Get-WmiObject win32_processor | select LoadPercentage).LoadPercentage -gt 50 ) 
 { 
-  write-host 'True';
+  write-host 'True'; 
 } else 
 { 
   write-host 'False';
